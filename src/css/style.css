@@ -1,0 +1,56 @@
+body{
+    background: url(../images/wallpaperflare.com_wallpaper.jpg);
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+
+#principal , h1{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 30px;
+    
+}
+
+#principal input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.resultado #calcular-imc{
+    border: 1px solid black;
+   line-height: 25px;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    width: 340px;
+    height: 300px;
+    
+}
+
+#name{
+    width: 340px;
+    height: 25px;
+}
+
+.peso-altura{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.peso-altura input{
+    width: 165px;
+    height: 25px;
+    
+}
+
+#principal .submit {
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
